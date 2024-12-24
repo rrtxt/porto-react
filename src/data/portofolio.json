@@ -12,7 +12,7 @@
       "role": "Fullstack Web Developer Intern",
       "place": "PT. Perkebunan Nusantara 1 Regional 5",
       "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
-      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
+      "skills": ["Backend Development"]
     }
   ],
   "projects": [
