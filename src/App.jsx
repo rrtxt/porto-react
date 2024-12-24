@@ -2,13 +2,19 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import ExperiencesCard from "./components/ExperiencesCard";
 import portofolio from "./data/portofolio.json";
 import ProjectCard from "./components/ProjectCard";
+import { useState } from "react";
 
 function App() {
+  const [isBurgerOpened, setIsBurgerOpened] = useState(false);
   function scrollToElement(id) {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  }
+
+  function openBurger() {
+    setIsBurgerOpened(!isBurgerOpened);
   }
   return (
     <>
@@ -17,50 +23,57 @@ function App() {
           <nav>
             <div className="my-5">
               <ul>
-                {/* <div id="burgerIcon" className=" md:hidden">
-                  <Icon
-                    icon="stash:burger-classic"
-                    width="48"
-                    height="48"
-                    style={{ color: "#fff" }}
-                  />
-                  <Icon
-                    icon="charm:cross"
-                    width="48"
-                    height="48"
-                    style={{ color: "#fff" }}
-                  />
-                </div> */}
-                <div className="flex justify-center items-center gap-[10%]">
-                  <li>
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => scrollToElement("profile")}>
-                      Profile
-                    </div>
-                  </li>
-                  <li>
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => scrollToElement("experiences")}>
-                      Experiences
-                    </div>
-                  </li>
-                  <li>
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => scrollToElement("projects")}>
-                      Projects
-                    </div>
-                  </li>
-                  <li>
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => scrollToElement("contacts")}>
-                      Contacts
-                    </div>
-                  </li>
+                <div className="flex justify-center md:hidden ">
+                  {isBurgerOpened ? (
+                    <Icon
+                      onClick={() => openBurger()}
+                      icon="charm:cross"
+                      width="48"
+                      height="48"
+                      style={{ color: "#fff" }}
+                    />
+                  ) : (
+                    <Icon
+                      onClick={() => openBurger()}
+                      icon="stash:burger-classic"
+                      width="48"
+                      height="48"
+                      style={{ color: "#fff" }}
+                    />
+                  )}
                 </div>
+                {isBurgerOpened && (
+                  <div className="flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%]">
+                    <li>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => scrollToElement("profile")}>
+                        Profile
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => scrollToElement("experiences")}>
+                        Experiences
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => scrollToElement("projects")}>
+                        Projects
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => scrollToElement("contacts")}>
+                        Contacts
+                      </div>
+                    </li>
+                  </div>
+                )}
               </ul>
             </div>
           </nav>
@@ -68,7 +81,7 @@ function App() {
         <main className="z-10">
           <div
             id="profile"
-            className=" h-screen flex flex-col lg:flex-row justify-center gap-10 items-center">
+            className="h-screen flex flex-col lg:flex-row justify-center py-24 lg:py-0 gap-10 items-center">
             <div>
               <img
                 id="my-pict"
@@ -76,18 +89,20 @@ function App() {
                 width="200"
                 height="300"
                 alt="rizfi"
-                className="border-solid border-2 border-white rotate-[5deg]"
+                className="border-solid border-2 rounded-lg border-white rotate-[5deg]"
               />
             </div>
-            <div className="w-[50%]">
+            <div className="w-[80%] md:w-[50%]">
               <div className=" flex flex-col justify-start items-start gap-5">
-                <h2 className=" text-4xl">Backend Developer</h2>
+                <h2 className="text-2xl md:text-2xl lg:text-4xl font-bold">
+                  Backend Developer
+                </h2>
                 <div>
-                  <h3 className=" font-bold">
+                  <h3 className="font-bold">
                     Hi there, I'm{" "}
                     <span className=" text-orange1">RIZFI FERDIANSYAH</span>
                   </h3>
-                  <p className="text-justify">
+                  <p className="text-justify text-sm md:text-base">
                     A final-year student at Universitas Airlangga, majoring in
                     Information system. Currently, I am honing my skills in{" "}
                     <span className=" text-orange1">Golang</span> and

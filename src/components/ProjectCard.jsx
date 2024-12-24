@@ -15,12 +15,12 @@ export default function ProjectCard({ content }) {
     setTechs(techStr);
   }, [content.role, content.tech]);
   return (
-    <div className="w-[70%] flex justify-evenly items-center flex-col-reverse lg:flex-row mb-72">
+    <div className="w-[80%] md:w-[70%] flex justify-evenly items-center flex-col-reverse lg:flex-row mb-72">
       {/* <div className="flex justify-center items-center">
         <h1 className="text-9xl">1</h1>
       </div> */}
-      <div className="w-full mt-3 lg:mt-0 lg:w-[50%] ">
-        <h1 className="text-2xl font-semibold text-orange1">
+      <div className="w-full mt-3 lg:mt-0 lg:w-[50%] text-xs md:text-base">
+        <h1 className="text-lg md:text-2xl font-semibold text-orange1">
           {content.title} <span className=" text-white">({content.year})</span>
         </h1>
         <p
