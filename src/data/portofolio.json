@@ -47,8 +47,10 @@
       "desc": "Daily food recommendation app, Spoonful, that leverages <b>computer vision</b> to analyze and display <b>nutritional information</b> such as calories, carbohydrates, and protein, also recommend the nearby restaurants that serve that food.",
       "role": ["Backend Developer", "Cloud Engineer", "Project Manager"],
       "tech": [
+        "Kotlin",
+        "Tensorflow",
         "Express.js",
-        "PostgreSQL",
+        "MySQL",
         "PrismaORM",
         "Docker",
         "Google Cloud Platform"
