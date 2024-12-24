@@ -1,0 +1,11 @@
+{
+  "experiences": [
+    {
+      "timeline": "February 2024 - June 2024",
+      "role": "Cloud Computing Cohort",
+      "place": "Bangkit Academy 2024 Batch 1",
+      "desc": "Bangkit Academy, an initiative by Google, GoTo, and Traveloka. During this intensive program, I developed advanced skills in managing cloud resources using <b>Google Cloud Platform (GCP)</b>, with a strong focus on cloud architecture, deployment models, security best practices, and cost optimization. I am honored to have been recognized as a <b>Distinction Graduate</b> in the Cloud Computing Cohort.",
+      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
+    }
+  ]
+}

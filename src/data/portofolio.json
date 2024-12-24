@@ -1,0 +1,60 @@
+{
+  "experiences": [
+    {
+      "timeline": "February 2024 - June 2024",
+      "role": "Cloud Computing Cohort",
+      "place": "Bangkit Academy 2024 Batch 1",
+      "desc": "Bangkit Academy, an initiative by Google, GoTo, and Traveloka. During this intensive program, I developed advanced skills in managing cloud resources using <b>Google Cloud Platform (GCP)</b>, with a strong focus on cloud architecture, deployment models, security best practices, and cost optimization. I am honored to have been recognized as a <b>Distinction Graduate</b> in the Cloud Computing Cohort.",
+      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
+    },
+    {
+      "timeline": "July 2024 - December 2024",
+      "role": "Fullstack Web Developer Intern",
+      "place": "PT. Perkebunan Nusantara 1 Regional 5",
+      "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
+      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Journal Database Reviewer",
+      "year": "2023",
+      "desc": "The Journal Database Reviewer is a web application designed to help editors find qualified authors to <b>review journals</b>. It also streamlines the management of author profiles and their publications while enabling administrators to grant platform access to editors. The application leverages data from the <b>Open Journal System and Scopus-indexed publications</b>. Utilizing Natural Language Processing <b>(NLP)</b> techniques such as <b>TF-IDF and tokenization</b>, the platform efficiently identifies reviewers that best match the submitted documents.",
+      "role": ["Backend Developer", "Project Manager"],
+      "tech": ["Django", "TailwindCSS", "MySQL"],
+      "doc": "/gif/JDR-Porto.gif"
+    },
+    {
+      "title": "Kompetisi Kimia",
+      "year": "2024",
+      "desc": " Web platform built for Kompetisi Kimia 2024—a national chemistry olympiad organized by the Chemistry Student Association at Universitas Airlangga.",
+      "role": ["Backend Developer"],
+      "tech": ["AdonisJS", "NodeJS", "TailwindCSS", "MySQL, Nginx"],
+      "doc": "/gif/KK24-Admin-Porto.gif"
+    },
+    {
+      "title": "Cinematxt",
+      "year": "2023",
+      "desc": "Cinematxt is a simple web-based cinema application designed for ticket ordering and payment processing.",
+      "role": ["Fullstack Developer"],
+      "tech": ["Next.js", "TailwindCSS", "PrismaORM", "PostgreSQL"],
+      "doc": "/gif/Cinema-Porto.gif",
+      "git": "https://github.com/rrtxt/Cinematxt"
+    },
+    {
+      "title": "Spoonful",
+      "year": "2024",
+      "desc": "Daily food recommendation app, Spoonful, that leverages <b>computer vision</b> to analyze and display <b>nutritional information</b> such as calories, carbohydrates, and protein, also recommend the nearby restaurants that serve that food.",
+      "role": ["Backend Developer", "Cloud Engineer", "Project Manager"],
+      "tech": [
+        "Express.js",
+        "PostgreSQL",
+        "PrismaORM",
+        "Docker",
+        "Google Cloud Platform"
+      ],
+      "doc": "/image/Spoonful.png",
+      "git": "https://github.com/Spoonful-Capstone"
+    }
+  ]
+}
