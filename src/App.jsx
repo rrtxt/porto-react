@@ -42,38 +42,41 @@ function App() {
                     />
                   )}
                 </div>
-                {isBurgerOpened && (
-                  <div className="flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%]">
-                    <li>
-                      <button
-                        className="cursor-pointer"
-                        onClick={() => scrollToElement("profile")}>
-                        Profile
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        className="cursor-pointer"
-                        onClick={() => scrollToElement("experiences")}>
-                        Experiences
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        className="cursor-pointer"
-                        onClick={() => scrollToElement("projects")}>
-                        Projects
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        className="cursor-pointer"
-                        onClick={() => scrollToElement("contacts")}>
-                        Contacts
-                      </button>
-                    </li>
-                  </div>
-                )}
+                {/* {isBurgerOpened && ( */}
+                <div
+                  className={`${
+                    isBurgerOpened ? "flex" : "hidden"
+                  } flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%] md:flex`}>
+                  <li>
+                    <button
+                      className="cursor-pointer"
+                      onClick={() => scrollToElement("profile")}>
+                      Profile
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      className="cursor-pointer"
+                      onClick={() => scrollToElement("experiences")}>
+                      Experiences
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      className="cursor-pointer"
+                      onClick={() => scrollToElement("projects")}>
+                      Projects
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      className="cursor-pointer"
+                      onClick={() => scrollToElement("contacts")}>
+                      Contacts
+                    </button>
+                  </li>
+                </div>
+                {/* )} */}
               </ul>
             </div>
           </nav>
