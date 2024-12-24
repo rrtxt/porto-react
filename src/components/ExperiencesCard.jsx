@@ -7,7 +7,7 @@ export default function ExperiencesCard({ content }) {
     setSkills(mergedStr);
   }, [content.skills]);
   return (
-    <div className="flex w-[60%] mt-7">
+    <div className="flex flex-col justify-center items-center lg:flex-row lg:items-start w-[60%] mt-7">
       <div className=" w-[40%] text-center font-semibold">
         {content.timeline}
       </div>

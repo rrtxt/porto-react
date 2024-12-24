@@ -17,7 +17,7 @@ function App() {
           <nav>
             <div className="my-5">
               <ul>
-                <div id="burgerIcon" className=" md:hidden">
+                {/* <div id="burgerIcon" className=" md:hidden">
                   <Icon
                     icon="stash:burger-classic"
                     width="48"
@@ -30,7 +30,7 @@ function App() {
                     height="48"
                     style={{ color: "#fff" }}
                   />
-                </div>
+                </div> */}
                 <div className="flex justify-center items-center gap-[10%]">
                   <li>
                     <div
@@ -131,19 +131,6 @@ function App() {
                 <li>
                   <a
                     className="flex justify-center items-center gap-2"
-                    href="https://github.com/rrtxt">
-                    <Icon
-                      icon="mdi:github"
-                      width="48"
-                      height="48"
-                      style={{ color: "#fff" }}
-                    />
-                    <h2 className="text-2xl">Github</h2>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="flex justify-center items-center gap-2"
                     href="https://www.instagram.com/rizfi_f/">
                     <Icon
                       icon="mdi:instagram"
@@ -165,6 +152,19 @@ function App() {
                       style={{ color: "#fff" }}
                     />
                     <h2 className="text-2xl">Linkedin</h2>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="flex justify-center items-center gap-2"
+                    href="https://github.com/rrtxt">
+                    <Icon
+                      icon="mdi:github"
+                      width="48"
+                      height="48"
+                      style={{ color: "#fff" }}
+                    />
+                    <h2 className="text-2xl">Github</h2>
                   </a>
                 </li>
               </ul>
