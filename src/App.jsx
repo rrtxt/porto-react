@@ -45,32 +45,32 @@ function App() {
                 {isBurgerOpened && (
                   <div className="flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%]">
                     <li>
-                      <div
+                      <button
                         className="cursor-pointer"
                         onClick={() => scrollToElement("profile")}>
                         Profile
-                      </div>
+                      </button>
                     </li>
                     <li>
-                      <div
+                      <button
                         className="cursor-pointer"
                         onClick={() => scrollToElement("experiences")}>
                         Experiences
-                      </div>
+                      </button>
                     </li>
                     <li>
-                      <div
+                      <button
                         className="cursor-pointer"
                         onClick={() => scrollToElement("projects")}>
                         Projects
-                      </div>
+                      </button>
                     </li>
                     <li>
-                      <div
+                      <button
                         className="cursor-pointer"
                         onClick={() => scrollToElement("contacts")}>
                         Contacts
-                      </div>
+                      </button>
                     </li>
                   </div>
                 )}
