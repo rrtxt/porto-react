@@ -36,15 +36,32 @@ export default function ProjectCard({ content }) {
           </div>
         </div>
         {content.git && (
-          <div className="w-20 flex justify-center items-center p-1 rounded-lg bg-black">
+          <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-black">
             <a
               href={content.git}
+              target="_blank"
               className="flex justify-start items-center font-semibold text-lg gap-1">
               Git
               <Icon
                 icon="mdi:github"
                 width="32"
                 height="32"
+                style={{ color: "#fff" }}
+              />
+            </a>
+          </div>
+        )}
+        {content.paper && (
+          <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-[#fab608]">
+            <a
+              href={content.paper}
+              target="_blank"
+              className="flex justify-start items-center font-semibold text-sm gap-1">
+              Paper
+              <Icon
+                icon="simple-icons:doi"
+                width="24"
+                height="24"
                 style={{ color: "#fff" }}
               />
             </a>

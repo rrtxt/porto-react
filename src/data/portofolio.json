@@ -22,7 +22,8 @@
       "desc": "The Journal Database Reviewer is a web application designed to help editors find qualified authors to <b>review journals</b>. It also streamlines the management of author profiles and their publications while enabling administrators to grant platform access to editors. The application leverages data from the <b>Open Journal System and Scopus-indexed publications</b>. Utilizing Natural Language Processing <b>(NLP)</b> techniques such as <b>TF-IDF and tokenization</b>, the platform efficiently identifies reviewers that best match the submitted documents.",
       "role": ["Backend Developer", "Project Manager"],
       "tech": ["Django", "TailwindCSS", "MySQL"],
-      "doc": "/gif/JDR-Porto.gif"
+      "doc": "/gif/JDR-Porto.gif",
+      "paper": "https://doi.org/10.6087/kcse.356"
     },
     {
       "title": "Kompetisi Kimia",

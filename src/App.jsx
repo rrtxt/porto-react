@@ -98,7 +98,7 @@ function App() {
             <div className="w-[80%] md:w-[50%]">
               <div className=" flex flex-col justify-start items-start gap-5">
                 <h2 className="text-2xl md:text-2xl lg:text-4xl font-bold">
-                  Backend Developer
+                  Backend Developer and AI Enthusiast
                 </h2>
                 <div>
                   <h3 className="font-bold">
@@ -111,10 +111,17 @@ function App() {
                     <span className=" text-orange1">Golang</span> and
                     <span className=" text-orange1"> Node.js</span>, which are
                     essential for creating scalable and efficient web
-                    applications. I am eager to apply my knowledge and skills in
-                    practical settings, contributing to projects that make a
-                    difference while further developing my expertise in web
-                    development.
+                    applications. Currently, I am particularly interested in and
+                    learning about{" "}
+                    <span className="text-orange1">
+                      Natural Language Processing (NLP) and Large Language
+                      Models (LLMs)
+                    </span>
+                    , which play a crucial role in advancing intelligent systems
+                    and enhancing human-computer interaction. I am eager to
+                    apply my knowledge and skills in practical settings,
+                    contributing to projects that make a difference while
+                    further developing my expertise in web development and AI.
                   </p>
                 </div>
               </div>
