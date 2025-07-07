@@ -13,6 +13,17 @@
       "place": "PT. Perkebunan Nusantara 1 Regional 5",
       "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
       "skills": ["Backend Development"]
+    },
+    {
+      "timeline": "February 2025 - April 2025",
+      "role": "Backend Developer Intern",
+      "place": "PT. Wahana Meditek Indonesia",
+      "desc": "I was responsible for building <b>scalable RESTful APIs</b> using <b>Express.js</b> to support the reporting and dashboard modules. I also worked on <b>optimizing complex PostgreSQL queries</b> and implemented <b>advanced data aggregation techniques</b>, which led to a noticeable improvement in <b>API response times</b>. Collaborating closely with <b>frontend engineers</b> and <b>QA teams</b>, I contributed to the <b>design, testing, and deployment</b> of key features—ensuring the <b>accuracy and reliability</b> of analytics dashboards used by <b>business stakeholders</b> for critical decision-making.",
+      "skills": [
+        "Backend Development, Express.js",
+        "PostgreSQL",
+        "API Development"
+      ]
     }
   ],
   "projects": [
