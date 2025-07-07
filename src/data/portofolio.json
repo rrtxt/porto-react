@@ -4,21 +4,39 @@
       "timeline": "February 2024 - June 2024",
       "role": "Cloud Computing Cohort",
       "place": "Bangkit Academy 2024 Batch 1",
+      "intro": "During this intensive program, I developed advanced skills in cloud infrastructure and backend systems. My key focuses included:",
       "desc": "Bangkit Academy, an initiative by Google, GoTo, and Traveloka. During this intensive program, I developed advanced skills in managing cloud resources using <b>Google Cloud Platform (GCP)</b>, with a strong focus on cloud architecture, deployment models, security best practices, and cost optimization. I am honored to have been recognized as a <b>Distinction Graduate</b> in the Cloud Computing Cohort.",
+      "jobdesc": [
+        "Gained <b>advanced skills in managing cloud resources</b> using <b>Google Cloud Platform (GCP)</b>.",
+        "Specialized in <b>cloud architecture</b>, <b>deployment models</b>, <b>security best practices</b>, and <b>cost optimization</b>.",
+        "Recognized as a <b>Distinction Graduate</b> in the <b>Cloud Computing Cohort</b> for outstanding performance."
+      ],
       "skills": ["Cloud Computing", "Backend Development", "Project Management"]
     },
     {
       "timeline": "July 2024 - December 2024",
       "role": "Fullstack Web Developer Intern",
       "place": "PT. Perkebunan Nusantara 1 Regional 5",
+      "intro": "During this intensive internship, I strengthened my expertise in fullstack web development with a strong emphasis on backend performance, data visualization, and system optimization. My key focuses included:",
       "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
+      "jobdesc": [
+        "Developed a <b>high-performance document management system</b> using Laravel, achieving a <b>50% improvement in data loading speed</b> through effective <b>caching strategies</b>.",
+        "Designed an <b>intuitive financial dashboard</b> using Laravel and <b>Highcharts</b>, delivering <b>actionable insights</b> that supported stakeholder decision-making.",
+        "Enhanced and maintained a <b>warehouse management system</b> for agricultural asset tracking, significantly boosting its <b>operational efficiency</b> and <b>system reliability</b>."
+      ],
       "skills": ["Backend Development"]
     },
     {
       "timeline": "February 2025 - April 2025",
       "role": "Backend Developer Intern",
       "place": "PT. Wahana Meditek Indonesia",
+      "intro": "As a Backend Developer Intern at a healthcare technology company, I focused on developing scalable backend services and improving database efficiency to support critical data operations. My key contributions included:",
       "desc": "I was responsible for building <b>scalable RESTful APIs</b> using <b>Express.js</b> to support the reporting and dashboard modules. I also worked on <b>optimizing complex PostgreSQL queries</b> and implemented <b>advanced data aggregation techniques</b>, which led to a noticeable improvement in <b>API response times</b>. Collaborating closely with <b>frontend engineers</b> and <b>QA teams</b>, I contributed to the <b>design, testing, and deployment</b> of key features—ensuring the <b>accuracy and reliability</b> of analytics dashboards used by <b>business stakeholders</b> for critical decision-making.",
+      "jobdesc": [
+        "Developed <b>scalable RESTful APIs</b> using Express.js to power reporting and dashboard modules.",
+        "Implemented <b>complex PostgreSQL query optimizations</b> and <b>data aggregation techniques</b> to significantly improve <b>API response times</b>.",
+        "Collaborated with <b>frontend engineers</b> and <b>QA teams</b> to design, test, and deploy reliable features."
+      ],
       "skills": [
         "Backend Development, Express.js",
         "PostgreSQL",
