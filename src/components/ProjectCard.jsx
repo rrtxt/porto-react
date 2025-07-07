@@ -40,7 +40,7 @@ export default function ProjectCard({ content }) {
             <a
               href={content.git}
               target="_blank"
-              className="flex justify-start items-center font-semibold text-lg gap-1">
+              className="text-white hover:text-white flex justify-start items-center font-semibold text-lg gap-1">
               Git
               <Icon
                 icon="mdi:github"

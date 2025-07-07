@@ -10,7 +10,7 @@ export default {
         poppins: ['"Poppins"', 'sans-serif']
       },
       colors: {
-        orange1: '#ff872e',
+        orange1: '#FF8C42',
         blue1: '#3b41e3',
         blue2: '#2A2E9F'
       }

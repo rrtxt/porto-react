@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="flex justify-center items-center flex-col">
-        <header className="w-full bg-blue1/30 sticky top-0 z-50 backdrop-blur-sm shadow-sm">
+        <header className="w-full sticky top-0 z-50 backdrop-blur-sm shadow-sm">
           <nav>
             <div className="my-5">
               <ul>
@@ -30,7 +30,7 @@ function App() {
                       icon="charm:cross"
                       width="48"
                       height="48"
-                      style={{ color: "#fff" }}
+                      style={{ color: "black" }}
                     />
                   ) : (
                     <Icon
@@ -38,7 +38,7 @@ function App() {
                       icon="stash:burger-classic"
                       width="48"
                       height="48"
-                      style={{ color: "#fff" }}
+                      style={{ color: "black" }}
                     />
                   )}
                 </div>
@@ -102,7 +102,7 @@ function App() {
                 </h2>
                 <div>
                   <h3 className="font-bold">
-                    Hi there, I'm{" "}
+                    Hi there, I&apos;m{" "}
                     <span className=" text-orange1">RIZFI FERDIANSYAH</span>
                   </h3>
                   <p className="text-justify text-sm md:text-base">
@@ -161,7 +161,7 @@ function App() {
                       icon="mdi:instagram"
                       width="48"
                       height="48"
-                      style={{ color: "#fff" }}
+                      style={{ color: "black" }}
                     />
                     <h2 className="text-2xl">Instagram</h2>
                   </a>
@@ -174,7 +174,7 @@ function App() {
                       icon="uil:linkedin"
                       width="48"
                       height="48"
-                      style={{ color: "#fff" }}
+                      style={{ color: "black" }}
                     />
                     <h2 className="text-2xl">Linkedin</h2>
                   </a>
@@ -187,7 +187,7 @@ function App() {
                       icon="mdi:github"
                       width="48"
                       height="48"
-                      style={{ color: "#fff" }}
+                      style={{ color: "black" }}
                     />
                     <h2 className="text-2xl">Github</h2>
                   </a>
