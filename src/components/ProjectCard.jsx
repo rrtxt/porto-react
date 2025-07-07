@@ -21,7 +21,7 @@ export default function ProjectCard({ content }) {
       </div> */}
       <div className="w-full mt-3 lg:mt-0 lg:w-[50%] text-xs md:text-base">
         <h1 className="text-lg md:text-2xl font-semibold text-orange1">
-          {content.title} <span className=" text-white">({content.year})</span>
+          {content.title} <span>({content.year})</span>
         </h1>
         <p
           dangerouslySetInnerHTML={{ __html: content.desc }}
