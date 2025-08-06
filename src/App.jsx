@@ -106,22 +106,22 @@ function App() {
                     <span className=" text-orange1">RIZFI FERDIANSYAH</span>
                   </h3>
                   <p className="text-justify text-sm md:text-base">
-                    A final-year student at Universitas Airlangga, majoring in
-                    Information system. Currently, I am honing my skills in{" "}
-                    <span className=" text-orange1">Golang</span> and
+                    AI Engineer with a strong foundation in backend systems and
+                    cloud deployment. Experienced in building computer vision
+                    and NLP applications using{" "}
+                    <span className="text-orange1">PyTorch</span> and{" "}
+                    <span className="text-orange1">Tensorflow</span> Currently,
+                    I am honing my skills in{" "}
+                    <span className=" text-orange1">Python</span> and
                     <span className=" text-orange1"> Node.js</span>, which are
-                    essential for creating scalable and efficient web
+                    essential for creating scalable and efficient web-based AI
                     applications. Currently, I am particularly interested in and
                     learning about{" "}
                     <span className="text-orange1">
-                      Natural Language Processing (NLP) and Large Language
-                      Models (LLMs)
+                      Large Language Models (LLMs)
                     </span>
                     , which play a crucial role in advancing intelligent systems
-                    and enhancing human-computer interaction. I am eager to
-                    apply my knowledge and skills in practical settings,
-                    contributing to projects that make a difference while
-                    further developing my expertise in web development and AI.
+                    and enhancing human-computer interaction.
                   </p>
                 </div>
               </div>
