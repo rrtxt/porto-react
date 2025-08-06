@@ -1,30 +1,18 @@
 {
   "experiences": [
     {
-      "timeline": "February 2024 - June 2024",
-      "role": "Cloud Computing Cohort",
-      "place": "Bangkit Academy 2024 Batch 1",
-      "intro": "During this intensive program, I developed advanced skills in cloud infrastructure and backend systems. My key focuses included:",
-      "desc": "Bangkit Academy, an initiative by Google, GoTo, and Traveloka. During this intensive program, I developed advanced skills in managing cloud resources using <b>Google Cloud Platform (GCP)</b>, with a strong focus on cloud architecture, deployment models, security best practices, and cost optimization. I am honored to have been recognized as a <b>Distinction Graduate</b> in the Cloud Computing Cohort.",
+      "timeline": "April 2025 - June 2025",
+      "role": "Research Assistant",
+      "place": "Universitas Airlangga",
+      "intro": "As a Research Assistant at a leading academic institution, I contributed to applied deep learning research focused on enhancing image quality using GAN-based computer vision techniques. My key contributions included:",
+      "desc": "I led the implementation of <b>custom Generative Adversarial Network (GAN) architectures</b> in <b>PyTorch</b> for tasks such as <b>low-light enhancement</b> and <b>motion deblurring</b>. I conducted experiments using <b>public datasets</b> and evaluated model performance using <b>SSIM</b> and <b>PSNR</b> metrics. Throughout the research, I explored <b>optimization strategies and loss functions</b> tailored to image enhancement goals, resulting in significant improvements in visual quality. I also worked closely with <b>research supervisors</b> to document findings for <b>internal reports</b> and future publications.",
       "jobdesc": [
-        "Gained <b>advanced skills in managing cloud resources</b> using <b>Google Cloud Platform (GCP)</b>.",
-        "Specialized in <b>cloud architecture</b>, <b>deployment models</b>, <b>security best practices</b>, and <b>cost optimization</b>.",
-        "Recognized as a <b>Distinction Graduate</b> in the <b>Cloud Computing Cohort</b> for outstanding performance."
+        "Designed and implemented <b>custom GAN architectures</b> in PyTorch for <b>low-light image enhancement</b> and <b>deblurring tasks</b>.",
+        "Trained and evaluated models on <b>public image datasets</b> using <b>SSIM</b> and <b>PSNR</b> to measure visual improvements.",
+        "Explored and applied <b>optimization techniques</b> and <b>specialized loss functions</b> for enhanced image clarity.",
+        "Collaborated with <b>research supervisors</b> to document findings and support potential <b>scientific publication</b>."
       ],
-      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
-    },
-    {
-      "timeline": "July 2024 - December 2024",
-      "role": "Fullstack Web Developer Intern",
-      "place": "PT. Perkebunan Nusantara 1 Regional 5",
-      "intro": "During this intensive internship, I strengthened my expertise in fullstack web development with a strong emphasis on backend performance, data visualization, and system optimization. My key focuses included:",
-      "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
-      "jobdesc": [
-        "Developed a <b>high-performance document management system</b> using Laravel, achieving a <b>50% improvement in data loading speed</b> through effective <b>caching strategies</b>.",
-        "Designed an <b>intuitive financial dashboard</b> using Laravel and <b>Highcharts</b>, delivering <b>actionable insights</b> that supported stakeholder decision-making.",
-        "Enhanced and maintained a <b>warehouse management system</b> for agricultural asset tracking, significantly boosting its <b>operational efficiency</b> and <b>system reliability</b>."
-      ],
-      "skills": ["Backend Development"]
+      "skills": ["PyTorch", "Computer Vision", "Generative AI"]
     },
     {
       "timeline": "February 2025 - April 2025",
@@ -42,6 +30,32 @@
         "PostgreSQL",
         "API Development"
       ]
+    },
+    {
+      "timeline": "July 2024 - December 2024",
+      "role": "Fullstack Web Developer Intern",
+      "place": "PT. Perkebunan Nusantara 1 Regional 5",
+      "intro": "During this intensive internship, I strengthened my expertise in fullstack web development with a strong emphasis on backend performance, data visualization, and system optimization. My key focuses included:",
+      "desc": "Creating a <b>high-performance</b> document management system with Laravel that improved data loading speed by <b>50%</b> through caching strategies. I also designed an intuitive financial dashboard with Laravel and Highcharts, providing actionable insights to support <b>stakeholder decision-making</b>. Additionally, I enhanced and maintained a warehouse management system for agricultural asset tracking, significantly improving its <b>operational efficiency and reliability</b>.",
+      "jobdesc": [
+        "Developed a <b>high-performance document management system</b> using Laravel, achieving a <b>50% improvement in data loading speed</b> through effective <b>caching strategies</b>.",
+        "Designed an <b>intuitive financial dashboard</b> using Laravel and <b>Highcharts</b>, delivering <b>actionable insights</b> that supported stakeholder decision-making.",
+        "Enhanced and maintained a <b>warehouse management system</b> for agricultural asset tracking, significantly boosting its <b>operational efficiency</b> and <b>system reliability</b>."
+      ],
+      "skills": ["Backend Development"]
+    },
+    {
+      "timeline": "February 2024 - June 2024",
+      "role": "Cloud Computing Cohort",
+      "place": "Bangkit Academy 2024 Batch 1",
+      "intro": "During this intensive program, I developed advanced skills in cloud infrastructure and backend systems. My key focuses included:",
+      "desc": "Bangkit Academy, an initiative by Google, GoTo, and Traveloka. During this intensive program, I developed advanced skills in managing cloud resources using <b>Google Cloud Platform (GCP)</b>, with a strong focus on cloud architecture, deployment models, security best practices, and cost optimization. I am honored to have been recognized as a <b>Distinction Graduate</b> in the Cloud Computing Cohort.",
+      "jobdesc": [
+        "Gained <b>advanced skills in managing cloud resources</b> using <b>Google Cloud Platform (GCP)</b>.",
+        "Specialized in <b>cloud architecture</b>, <b>deployment models</b>, <b>security best practices</b>, and <b>cost optimization</b>.",
+        "Recognized as a <b>Distinction Graduate</b> in the <b>Cloud Computing Cohort</b> for outstanding performance."
+      ],
+      "skills": ["Cloud Computing", "Backend Development", "Project Management"]
     }
   ],
   "projects": [
