@@ -25,7 +25,8 @@ export default function ProjectCard({ content }) {
         </h1>
         <p
           dangerouslySetInnerHTML={{ __html: content.desc }}
-          className="text-justify mb-1"></p>
+          className="text-justify mb-1"
+        ></p>
         <div className="border-y-2 py-3 font-semibold">
           My Role :<div>{roles}</div>
         </div>
@@ -41,7 +42,8 @@ export default function ProjectCard({ content }) {
               <a
                 href={content.git}
                 target="_blank"
-                className="text-white hover:text-white flex justify-start items-center font-semibold text-lg gap-1">
+                className="text-white hover:text-white flex justify-start items-center font-semibold text-lg gap-1"
+              >
                 Git
                 <Icon
                   icon="mdi:github"
@@ -57,7 +59,8 @@ export default function ProjectCard({ content }) {
               <a
                 href={content.itchio}
                 target="_blank"
-                className="text-white hover:text-white flex justify-start items-center font-semibold text-sm gap-1">
+                className="text-white hover:text-white flex justify-start items-center font-semibold text-sm gap-1"
+              >
                 Itch.io
                 <Icon
                   icon="cib:itch-io"
@@ -73,7 +76,8 @@ export default function ProjectCard({ content }) {
               <a
                 href={content.paper}
                 target="_blank"
-                className="flex justify-start items-center font-semibold text-sm gap-1">
+                className="flex justify-start items-center font-semibold text-sm gap-1"
+              >
                 Paper
                 <Icon
                   icon="simple-icons:doi"
@@ -87,8 +91,10 @@ export default function ProjectCard({ content }) {
         </div>
       </div>
       <div>
-        {content.doc && (
+        {content.doc ? (
           <img width={450} height={200} src={content.doc} alt={content.title} />
+        ) : (
+          <div className="w-[450px] h-[200px]"></div>
         )}
       </div>
     </div>
