@@ -44,33 +44,39 @@ function App() {
                 </div>
                 {/* {isBurgerOpened && ( */}
                 <div
-                  className={`${isBurgerOpened ? "flex" : "hidden"
-                    } flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%] md:flex`}>
+                  className={`${
+                    isBurgerOpened ? "flex" : "hidden"
+                  } flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%] md:flex`}
+                >
                   <li>
                     <button
                       className="cursor-pointer"
-                      onClick={() => scrollToElement("profile")}>
+                      onClick={() => scrollToElement("profile")}
+                    >
                       Profile
                     </button>
                   </li>
                   <li>
                     <button
                       className="cursor-pointer"
-                      onClick={() => scrollToElement("experiences")}>
+                      onClick={() => scrollToElement("experiences")}
+                    >
                       Experiences
                     </button>
                   </li>
                   <li>
                     <button
                       className="cursor-pointer"
-                      onClick={() => scrollToElement("projects")}>
+                      onClick={() => scrollToElement("projects")}
+                    >
                       Projects
                     </button>
                   </li>
                   <li>
                     <button
                       className="cursor-pointer"
-                      onClick={() => scrollToElement("contacts")}>
+                      onClick={() => scrollToElement("contacts")}
+                    >
                       Contacts
                     </button>
                   </li>
@@ -83,7 +89,8 @@ function App() {
         <main className="z-10">
           <div
             id="profile"
-            className="h-screen flex flex-col lg:flex-row justify-center py-24 lg:py-0 gap-10 items-center">
+            className="h-screen flex flex-col lg:flex-row justify-center py-24 lg:py-0 gap-10 items-center"
+          >
             <div>
               <img
                 id="my-pict"
@@ -97,7 +104,7 @@ function App() {
             <div className="w-[80%] md:w-[50%]">
               <div className=" flex flex-col justify-start items-start gap-5">
                 <h2 className="text-2xl md:text-2xl lg:text-4xl font-bold">
-                  Backend Developer and AI Enthusiast
+                  Software Engineer
                 </h2>
                 <div>
                   <h3 className="font-bold">
@@ -105,27 +112,27 @@ function App() {
                     <span className=" text-orange1">RIZFI FERDIANSYAH</span>
                   </h3>
                   <p className="text-justify text-sm md:text-base">
-                    Software Engineer with a strong foundation in backend development,
-                    cloud-based systems, and applied AI engineering. Experienced in building
-                    RESTful APIs and data pipelines using{" "}
-                    <span className="text-orange1">Golang</span>,{" "}
-                    <span className="text-orange1">Python</span>, and{" "}
-                    <span className="text-orange1">PostgreSQL</span>, as well as developing
-                    computer vision and NLP applications using{" "}
+                    Software Engineer with a strong foundation in backend
+                    development, cloud-based systems, and applied AI
+                    engineering. Experienced in building RESTful APIs and data
+                    pipelines using <span className="text-orange1">Golang</span>
+                    , <span className="text-orange1">Python</span>, and{" "}
+                    <span className="text-orange1">PostgreSQL</span>, as well as
+                    developing computer vision and NLP applications using{" "}
                     <span className="text-orange1">PyTorch</span> and{" "}
-                    <span className="text-orange1">TensorFlow</span>.
-                    Alongside backend and AI work, I am actively exploring game development
-                    by building game prototypes in{" "}
+                    <span className="text-orange1">TensorFlow</span>. Alongside
+                    backend and AI work, I am actively exploring game
+                    development by building game prototypes in{" "}
                     <span className="text-orange1">C++</span> with{" "}
-                    <span className="text-orange1">Raylib</span> to understand how gameplay
-                    systems are structured.
-                    I am also deepening my knowledge in{" "}
+                    <span className="text-orange1">Raylib</span> to understand
+                    how gameplay systems are structured. I am also deepening my
+                    knowledge in{" "}
                     <span className="text-orange1">
                       Large Language Models (LLMs)
                     </span>{" "}
-                    and interactive systems, with a strong interest in how software
-                    engineering principles can be applied across games, AI, and user-facing
-                    applications.
+                    and interactive systems, with a strong interest in how
+                    software engineering principles can be applied across games,
+                    AI, and user-facing applications.
                   </p>
                 </div>
               </div>
@@ -133,7 +140,8 @@ function App() {
           </div>
           <div
             id="experiences"
-            className="min-h-screen flex flex-col justify-start items-center py-24">
+            className="min-h-screen flex flex-col justify-start items-center py-24"
+          >
             <h1 className="text-3xl font-bold">Experiences</h1>
             <div className="flex flex-col justify-center items-center">
               {portofolio.experiences.map((content, i) => {
@@ -143,7 +151,8 @@ function App() {
           </div>
           <div
             id="projects"
-            className="min-h-screen flex flex-col justify-start items-center py-24">
+            className="min-h-screen flex flex-col justify-start items-center py-24"
+          >
             <h1 className=" text-3xl font-bold">Projects</h1>
             <div className="flex flex-col justify-center items-center mt-7">
               {portofolio.projects.map((content, i) => {
@@ -153,14 +162,16 @@ function App() {
           </div>
           <div
             id="contacts"
-            className="h-screen flex flex-col justify-center items-center py-24">
+            className="h-screen flex flex-col justify-center items-center py-24"
+          >
             <h1 className="text-3xl font-bold">Social Media</h1>
             <div className="mt-7">
               <ul className="flex flex-col justify-center items-start gap-4">
                 <li>
                   <a
                     className="flex justify-center items-center gap-2"
-                    href="https://www.instagram.com/rizfi_f/">
+                    href="https://www.instagram.com/rizfi_f/"
+                  >
                     <Icon
                       icon="mdi:instagram"
                       width="48"
@@ -173,7 +184,8 @@ function App() {
                 <li>
                   <a
                     className=" flex justify-center items-center gap-2"
-                    href="https://www.linkedin.com/in/rizfi-ferdiansyah-24909a220/">
+                    href="https://www.linkedin.com/in/rizfi-ferdiansyah-24909a220/"
+                  >
                     <Icon
                       icon="uil:linkedin"
                       width="48"
@@ -186,7 +198,8 @@ function App() {
                 <li>
                   <a
                     className="flex justify-center items-center gap-2"
-                    href="https://github.com/rrtxt">
+                    href="https://github.com/rrtxt"
+                  >
                     <Icon
                       icon="mdi:github"
                       width="48"
