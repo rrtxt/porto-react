@@ -44,9 +44,8 @@ function App() {
                 </div>
                 {/* {isBurgerOpened && ( */}
                 <div
-                  className={`${
-                    isBurgerOpened ? "flex" : "hidden"
-                  } flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%] md:flex`}>
+                  className={`${isBurgerOpened ? "flex" : "hidden"
+                    } flex flex-col mt-5 md:flex-row md:mt-none justify-center items-center gap-5 md:gap-[10%] md:flex`}>
                   <li>
                     <button
                       className="cursor-pointer"
@@ -106,22 +105,27 @@ function App() {
                     <span className=" text-orange1">RIZFI FERDIANSYAH</span>
                   </h3>
                   <p className="text-justify text-sm md:text-base">
-                    AI Engineer with a strong foundation in backend systems and
-                    cloud deployment. Experienced in building computer vision
-                    and NLP applications using{" "}
+                    Software Engineer with a strong foundation in backend development,
+                    cloud-based systems, and applied AI engineering. Experienced in building
+                    RESTful APIs and data pipelines using{" "}
+                    <span className="text-orange1">Golang</span>,{" "}
+                    <span className="text-orange1">Python</span>, and{" "}
+                    <span className="text-orange1">PostgreSQL</span>, as well as developing
+                    computer vision and NLP applications using{" "}
                     <span className="text-orange1">PyTorch</span> and{" "}
-                    <span className="text-orange1">Tensorflow</span> Currently,
-                    I am honing my skills in{" "}
-                    <span className=" text-orange1">Python</span> and
-                    <span className=" text-orange1"> Node.js</span>, which are
-                    essential for creating scalable and efficient web-based AI
-                    applications. Currently, I am particularly interested in and
-                    learning about{" "}
+                    <span className="text-orange1">TensorFlow</span>.
+                    Alongside backend and AI work, I am actively exploring game development
+                    by building game prototypes in{" "}
+                    <span className="text-orange1">C++</span> with{" "}
+                    <span className="text-orange1">Raylib</span> to understand how gameplay
+                    systems are structured.
+                    I am also deepening my knowledge in{" "}
                     <span className="text-orange1">
                       Large Language Models (LLMs)
-                    </span>
-                    , which play a crucial role in advancing intelligent systems
-                    and enhancing human-computer interaction.
+                    </span>{" "}
+                    and interactive systems, with a strong interest in how software
+                    engineering principles can be applied across games, AI, and user-facing
+                    applications.
                   </p>
                 </div>
               </div>

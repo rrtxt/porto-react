@@ -35,41 +35,61 @@ export default function ProjectCard({ content }) {
             <div>{techs}</div>
           </div>
         </div>
-        {content.git && (
-          <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-black">
-            <a
-              href={content.git}
-              target="_blank"
-              className="text-white hover:text-white flex justify-start items-center font-semibold text-lg gap-1">
-              Git
-              <Icon
-                icon="mdi:github"
-                width="32"
-                height="32"
-                style={{ color: "#fff" }}
-              />
-            </a>
-          </div>
-        )}
-        {content.paper && (
-          <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-[#fab608]">
-            <a
-              href={content.paper}
-              target="_blank"
-              className="flex justify-start items-center font-semibold text-sm gap-1">
-              Paper
-              <Icon
-                icon="simple-icons:doi"
-                width="24"
-                height="24"
-                style={{ color: "#fff" }}
-              />
-            </a>
-          </div>
-        )}
+        <div className="flex gap-2">
+          {content.git && (
+            <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-black">
+              <a
+                href={content.git}
+                target="_blank"
+                className="text-white hover:text-white flex justify-start items-center font-semibold text-lg gap-1">
+                Git
+                <Icon
+                  icon="mdi:github"
+                  width="32"
+                  height="32"
+                  style={{ color: "#fff" }}
+                />
+              </a>
+            </div>
+          )}
+          {content.itchio && (
+            <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-[#fa5c5c]">
+              <a
+                href={content.itchio}
+                target="_blank"
+                className="text-white hover:text-white flex justify-start items-center font-semibold text-sm gap-1">
+                Itch.io
+                <Icon
+                  icon="cib:itch-io"
+                  width="24"
+                  height="24"
+                  style={{ color: "#fff" }}
+                />
+              </a>
+            </div>
+          )}
+          {content.paper && (
+            <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-[#fab608]">
+              <a
+                href={content.paper}
+                target="_blank"
+                className="flex justify-start items-center font-semibold text-sm gap-1">
+                Paper
+                <Icon
+                  icon="simple-icons:doi"
+                  width="24"
+                  height="24"
+                  style={{ color: "#fff" }}
+                />
+              </a>
+            </div>
+          )}
+        </div>
       </div>
       <div>
-        <img width={450} height={200} src={content.doc} alt={content.title} />
+        {content.doc && (
+          <img width={450} height={200} src={content.doc} alt={content.title} />
+        )}
       </div>
     </div>
   );
