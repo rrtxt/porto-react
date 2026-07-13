@@ -88,6 +88,24 @@ export default function ProjectCard({ content }) {
               </a>
             </div>
           )}
+          {content.url && (
+            <div className="w-20 min-h-10 flex justify-center items-center p-1 rounded-lg bg-blue1">
+              <a
+                href={content.url}
+                target="_blank"
+                // rel="noopener noreferrer"
+                className="text-white hover:text-white flex justify-start items-center font-semibold text-sm gap-1"
+              >
+                Live
+                <Icon
+                  icon="mdi:web"
+                  width="24"
+                  height="24"
+                  style={{ color: "#fff" }}
+                />
+              </a>
+            </div>
+          )}
         </div>
       </div>
       <div>

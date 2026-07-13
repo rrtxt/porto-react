@@ -104,6 +104,22 @@
       "git": "https://github.com/rrtxt/JetCPP"
     },
     {
+      "title": "Leet-Type",
+      "year": "2026",
+      "desc": "Leet-Type is a <b>Monkeytype-inspired web application</b> designed for practicing code typing using solutions to <b>LeetCode-style programming problems</b>. It features an interactive <b>character-by-character typing engine</b> with <b>real-time accuracy tracking</b>, <b>WPM calculation</b>, <b>mistake highlighting</b>, and <b>code-specific formatting support</b> to deliver an engaging typing experience for developers.",
+      "role": [
+        "Web Programmer"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "doc": "/gif/Leet-Type-Porto.gif",
+      "git": "https://github.com/rrtxt/Leet-Type",
+      "url": "https://leettype.rizfi-ferdian.com"
+    },
+    {
       "title": "Si-Alang",
       "year": "2024",
       "desc": "Si-Alang is an <b>educational board game integrated with a mobile application</b>, designed to modernize traditional gameplay. The game helps children learn about <b>Indonesian culture</b> while enhancing <b>multiple intelligences</b> through interactive mechanics. This project was <b>selected for national PKM-K funding</b>, combining physical game design with digital systems to create an engaging learning experience.",
